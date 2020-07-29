@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>email</title>
+</head>
+
+<body>
+    <div class="mail-container">
+        <div class="container">
+            <h3 class="form-title">sending email</h3>
+            <form id="form" action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="lname">email</label>
+                <input type="text" id="email" name="email" placeholder="email">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <!-- <input type="submit" value="Submit"> -->
+                <div class="sentBtns">
+                    <a href="#" class="btn send-btn">send</a>
+                    <span><img src="/img/64x64.gif" alt=""></span>
+                    <a href="#" class="btn reset-btn">reset</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Script section -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
